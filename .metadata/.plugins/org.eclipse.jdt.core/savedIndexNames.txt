@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/satotakuma/Desktop/java_practice2/.metadata/.plugins/org.eclipse.jdt.core
+3911851230.index
+1188272913.index
+3869157959.index

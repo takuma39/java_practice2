@@ -4,6 +4,11 @@ class Staff {
 	String name;
 	int staffid;
 	String email;
+
+	public void sayhello() {
+		System.out.println("Hello " + this.name);
+		//thisはsayhello（メソッド）を定義しているクラス
+	}
 }
 public class Staffinfo {
 
@@ -12,7 +17,8 @@ public class Staffinfo {
 		Staff sato = new Staff();
 		sato.name = "Takuma Sato";
 
-		System.out.println(sato.name);
+		sato.sayhello();
+		//System.out.println(sato.name);
 	}
 
 }

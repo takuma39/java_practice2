@@ -25,6 +25,16 @@ public class BmiCalc2 {
 
 		System.out.println("BMI: " + bmi + "です。");
 
+
+		//if文
+		if (bmi < 18.5) {
+			System.out.println("痩せ型です");
+		} else if (bmi < 25) {
+			System.out.println("標準です");
+		} else {
+			System.out.println("肥満です");
+		}
+
 	}
 
 }

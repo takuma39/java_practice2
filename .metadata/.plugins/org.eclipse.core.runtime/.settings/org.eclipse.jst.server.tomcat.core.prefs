@@ -2,4 +2,4 @@ eclipse.preferences.version=1
 locationorg.eclipse.jst.server.tomcat.runtime.60=/Users/satotakuma/Desktop/Eclipse_2020-06.app/Contents/tomcat/6
 locationorg.eclipse.jst.server.tomcat.runtime.70=/Users/satotakuma/Desktop/Eclipse_2020-06.app/Contents/tomcat/7
 locationorg.eclipse.jst.server.tomcat.runtime.85=/Users/satotakuma/Desktop/Eclipse_2020-06.app/Contents/tomcat/8
-locationorg.eclipse.jst.server.tomcat.runtime.90=/Users/satotakuma/Desktop/Eclipse_2020-06.app/Contents/tomcat/9
+locationorg.eclipse.jst.server.tomcat.runtime.90=/Users/satotakuma/Desktop/tomcat/apache-tomcat-9.0.40

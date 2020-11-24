@@ -46,12 +46,26 @@ class Staff {
 
 // ------------------------------------------------------
 
+//Staffクラスを継承し、Staffクラスが持っているフィールドやgetter、setterが利用可能
+class RemoteStaff extends Staff {
+	public String location;
+	public RemoteStaff(String name, int staffid, String email) {
+		super(name, staffid, email);
+		// TODO 自動生成されたコンストラクター・スタブ
+	}
+}
+
+//------------------------------------------------------
+
 public class StaffInfo {
 
 	public static void main(String[] args) {
 		// public Staff(String name, int staffid, String email)
-		Staff sato = new Staff("Takuma Sato", 1234, "test@test");
+		Staff sato = new Staff("Takuma Sato", 1234, "1@test");
 		//sato.name = "Takuma Sato";
+
+		RemoteStaff tanaka = new RemoteStaff("Kei Tanaka", 5678, "2@test");
+		tanaka.location = "大阪";
 
 		//sato.sayhello();
 		//System.out.println(sato.name);
@@ -60,5 +74,11 @@ public class StaffInfo {
 		System.out.println("氏名：" + sato.getName());
 		System.out.println("社員番号：" + sato.getStaffid());
 		System.out.println("email：" + sato.getEmail());
+
+		System.out.println("【社員情報】");
+		System.out.println("氏名：" + tanaka.getName());
+		System.out.println("社員番号：" + tanaka.getStaffid());
+		System.out.println("email：" + tanaka.getEmail());
+		System.out.println("email：" + tanaka.location);
 	}
 }

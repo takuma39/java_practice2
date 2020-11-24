@@ -2860,3 +2860,18 @@ org.eclipse.swt.SWTException: Invalid thread access
 	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3504)
 	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:379)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-11-25 03:32:39.006
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-11-25 03:32:39.015
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-11-25 03:34:25.748
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-11-25 03:34:25.748
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT
+
+!ENTRY org.eclipse.wst.html.ui 1 1 2020-11-25 03:34:25.749
+!MESSAGE No line style provider for org.eclipse.wst.html.SCRIPT

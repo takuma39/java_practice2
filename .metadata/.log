@@ -2759,3 +2759,104 @@ java.net.UnknownHostException: jope.ow2.org
 	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
 	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 00:39:26.233
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 00:39:26.234
+!MESSAGE classpath=34 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 00:39:26.235
+!MESSAGE buffering callback sts4.classpath.TBwJGtwn FirstWebApp false 34
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 00:39:26.236
+!MESSAGE executing callback sts4.classpath.TBwJGtwn 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 00:39:26.245
+!MESSAGE executing callback sts4.classpath.TBwJGtwn SUCCESS [終了しました]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 00:44:16.645
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TBwJGtwn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 00:44:16.646
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.TBwJGtwn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 00:44:16.647
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-25 00:44:16.647
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TBwJGtwn => OK
+
+!ENTRY org.eclipse.debug.core 4 2 2020-11-25 00:45:05.556
+!MESSAGE プラグイン "org.eclipse.debug.core" からのコードの起動で問題が発生しました。
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:810)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:597)
+	at org.eclipse.swt.widgets.Tree.getSelection(Tree.java:1830)
+	at org.eclipse.jface.viewers.TreeViewer.getSelection(TreeViewer.java:231)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSelection(AbstractTreeViewer.java:2983)
+	at com.eclipserunner.views.impl.RunnerViewSelection.getSelection(RunnerViewSelection.java:111)
+	at com.eclipserunner.views.impl.RunnerViewSelection.firstNodeHasType(RunnerViewSelection.java:40)
+	at com.eclipserunner.views.impl.RunnerView.getLaunchNode(RunnerView.java:459)
+	at com.eclipserunner.views.impl.RunnerView.updateRunMenu(RunnerView.java:585)
+	at com.eclipserunner.views.impl.RunnerView.modelChanged(RunnerView.java:522)
+	at com.eclipserunner.model.impl.RunnerModel.fireModelChangedEvent(RunnerModel.java:110)
+	at com.eclipserunner.model.impl.RunnerModel.categoryNodeChanged(RunnerModel.java:130)
+	at com.eclipserunner.model.impl.CategoryNode.fireCategoryNodeChangedEvent(CategoryNode.java:94)
+	at com.eclipserunner.model.impl.CategoryNode.add(CategoryNode.java:63)
+	at com.eclipserunner.model.common.CategoryDelegatingDecorator.add(CategoryDelegatingDecorator.java:30)
+	at com.eclipserunner.model.adapters.RunnerModelLaunchConfigurationListenerAdapter.launchConfigurationAdded(RunnerModelLaunchConfigurationListenerAdapter.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:218)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2103)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:372)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:257)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:227)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:185)
+	at org.eclipse.wst.server.core.internal.Server.getLaunchConfiguration(Server.java:1772)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3561)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3504)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:379)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 120 2020-11-25 00:45:05.557
+!MESSAGE 起動構成変更通知中に例外が発生しました。
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:810)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:597)
+	at org.eclipse.swt.widgets.Tree.getSelection(Tree.java:1830)
+	at org.eclipse.jface.viewers.TreeViewer.getSelection(TreeViewer.java:231)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getSelection(AbstractTreeViewer.java:2983)
+	at com.eclipserunner.views.impl.RunnerViewSelection.getSelection(RunnerViewSelection.java:111)
+	at com.eclipserunner.views.impl.RunnerViewSelection.firstNodeHasType(RunnerViewSelection.java:40)
+	at com.eclipserunner.views.impl.RunnerView.getLaunchNode(RunnerView.java:459)
+	at com.eclipserunner.views.impl.RunnerView.updateRunMenu(RunnerView.java:585)
+	at com.eclipserunner.views.impl.RunnerView.modelChanged(RunnerView.java:522)
+	at com.eclipserunner.model.impl.RunnerModel.fireModelChangedEvent(RunnerModel.java:110)
+	at com.eclipserunner.model.impl.RunnerModel.categoryNodeChanged(RunnerModel.java:130)
+	at com.eclipserunner.model.impl.CategoryNode.fireCategoryNodeChangedEvent(CategoryNode.java:94)
+	at com.eclipserunner.model.impl.CategoryNode.add(CategoryNode.java:63)
+	at com.eclipserunner.model.common.CategoryDelegatingDecorator.add(CategoryDelegatingDecorator.java:30)
+	at com.eclipserunner.model.adapters.RunnerModelLaunchConfigurationListenerAdapter.launchConfigurationAdded(RunnerModelLaunchConfigurationListenerAdapter.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:218)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2103)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:372)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:257)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:227)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:185)
+	at org.eclipse.wst.server.core.internal.Server.getLaunchConfiguration(Server.java:1772)
+	at org.eclipse.wst.server.core.internal.Server.startImpl2(Server.java:3561)
+	at org.eclipse.wst.server.core.internal.Server.startImpl(Server.java:3504)
+	at org.eclipse.wst.server.core.internal.Server$StartJob.run(Server.java:379)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
